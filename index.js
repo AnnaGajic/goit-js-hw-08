@@ -1,5 +1,5 @@
-import galleryItems from '../references/images.js';
-import refs from '../references/refs.js';
+import galleryItems from './references/images.js';
+import refs from './references/refs.js';
 const { list, closeBtn, modal, modalImage, modalCloseOverlay } = refs;
 
 const galleryMarkup = createGalleryMarkup(galleryItems);
